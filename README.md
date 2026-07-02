@@ -65,3 +65,4 @@ https://leor.cn/agent-test/mcp
 - [安全说明](SECURITY.md)
 - [目录提交资料](REGISTRY-SUBMISSION.md)
 - [中文推广素材](CONTENT-KIT.md)
+- [宣传素材交接说明](marketing/HANDOFF.md)
