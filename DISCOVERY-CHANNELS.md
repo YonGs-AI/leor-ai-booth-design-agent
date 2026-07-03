@@ -90,6 +90,8 @@
 - 优先级：中。
 - 原因：社区目录更利于搜索和 Agent 抓取，但审核和稳定性不如官方或大平台。
 - 发布策略：提交中文介绍、官网链接、GitHub 链接和 MCP 地址。
+- 当前状态：已向 MCP Hub 中国提交推荐 issue，等待维护者审核。
+- 提交链接：https://github.com/mengjian-github/mcp-cn/issues/20
 
 ### 知乎 / 公众号 / 小红书 / 抖音
 
@@ -119,7 +121,7 @@
 6. 准备百度千帆 / 文心智能体接入教程或平台提交。已核验，受实名认证 / AI 原生网关开通限制，暂未完成。
 7. 准备扣子 / Coze 接入教程或插件提交。已创建并发布扣子插件，仍需复查工作区外部可见性。
 8. 准备腾讯云 MCP 广场 / CloudBase 收录。
-9. 补充提交 MCP.so、MCP Hub 中国、Awesome MCP 中文列表。MCP.so 已提交。
+9. 补充提交 MCP.so、MCP Hub 中国、Awesome MCP 中文列表。MCP.so 已提交，MCP Hub 中国已提交推荐 issue。
 10. 发布中文内容平台教程。
 
 ## 5. 停止条件

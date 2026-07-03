@@ -99,9 +99,21 @@ https://mcp.leor.cn/mcp
 
 待确认事项：
 
-- 腾讯云开发者 MCP 广场是否支持第三方公网 MCP URL 自助提交。
-- CloudBase Marketplace 是否必须使用腾讯云托管部署。
-- 若要求源码托管，是否允许只提交文档型项目和远程 URL。
+- 腾讯云智能体开发平台支持基于 MCP 新建自定义插件，并可配置在线 URL，支持 `sse` 和 `streamableHttp`。
+- CloudBase MCP 市场当前上架要求更偏向“开源 MCP Server + Stdio + 云开发部署”，与 LEOR 不公开网关源码、使用远程 Streamable HTTP 的边界不匹配。
+- 若只是做腾讯云智能体内自定义插件，可使用 `https://mcp.leor.cn/mcp` 接入；若要上架 CloudBase MCP 市场，暂不提交，除非平台允许文档型远程服务收录。
+
+当前处理：
+
+- 暂不向 CloudBase MCP 市场提交源码型上架。
+- 后续优先写腾讯云智能体开发平台自定义 MCP 插件接入教程。
+
+### MCP Hub 中国
+
+当前状态：
+
+- 已向 MCP Hub 中国提交推荐 issue，等待维护者审核。
+- 提交链接：https://github.com/mengjian-github/mcp-cn/issues/20
 
 ## 安全边界
 
