@@ -45,7 +45,9 @@
 - 优先级：高。
 - 原因：国内 MCP 广场和实验场用户更集中，适合让不翻墙的 Agent 用户发现。
 - 发布策略：先提交公开服务或教程页；如果平台要求代码托管，优先使用文档型项目，不公开私有网关实现。
-- 当前状态：提交资料已准备，见 `MODELSCOPE-SUBMISSION.md`。创建入口需要登录 ModelScope / 魔搭账号，当前未完成提交。
+- 当前状态：已发布。
+- 页面：https://modelscope.cn/mcp/servers/yongwah/leor-ai-booth-design-agent
+- 备注：已按 Streamable HTTP 配置，MCP 地址为 `https://leor.cn/agent-test/mcp`，图标使用 LEOR 小 O 黑金图标。
 
 ### 百度千帆 / 文心智能体
 
@@ -97,8 +99,8 @@
 1. 发布 GitHub 公开仓库。已完成。
 2. 提交 Official MCP Registry。已完成。
 3. 提交 Smithery。已完成。
-4. 提交 ModelScope MCP 广场。
-5. 准备 ModelScope 魔搭提交。资料已完成，待登录平台提交。
+4. 提交 ModelScope MCP 广场。已完成。
+5. 准备 ModelScope 魔搭提交。已完成。
 6. 准备百度千帆 / 文心智能体接入教程或平台提交。
 7. 准备扣子 / Coze 接入教程或插件提交。
 8. 准备腾讯云 MCP 广场 / CloudBase 收录。

@@ -2,8 +2,10 @@
 
 ## 当前状态
 
-- 待提交。
-- 需要登录 ModelScope / 魔搭账号。
+- 已提交。
+- 页面：https://modelscope.cn/mcp/servers/yongwah/leor-ai-booth-design-agent
+- 所有者：`yongwah`
+- 当前状态：公开，可部署。
 - 官方文档入口：https://modelscope.cn/docs/mcp/create
 - MCP 广场入口：https://www.modelscope.cn/mcp
 
@@ -79,6 +81,12 @@ io.github.YonGs-AI/leor-ai-booth-design-agent
 
 ```text
 https://smithery.ai/servers/yongwah2026/leor-ai-booth-design-agent
+```
+
+### ModelScope 魔搭
+
+```text
+https://modelscope.cn/mcp/servers/yongwah/leor-ai-booth-design-agent
 ```
 
 ## 详细介绍
