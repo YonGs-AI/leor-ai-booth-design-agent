@@ -27,6 +27,8 @@
 
 - 作用：MCP 服务发现、连接和分发入口。
 - 提交方式：提交公开 HTTPS MCP URL。
+- 当前状态：已发布 `yongwah2026/leor-ai-booth-design-agent`。
+- 页面：https://smithery.ai/servers/yongwah2026/leor-ai-booth-design-agent
 - 注意：如果平台要求公开私有源码或内部风控实现，停止提交。
 
 ### MCP.so
@@ -82,7 +84,7 @@
 
 1. 发布 GitHub 公开仓库。已完成。
 2. 提交 Official MCP Registry。已完成。
-3. 提交 Smithery。
+3. 提交 Smithery。已完成。
 4. 提交 ModelScope MCP 广场。
 5. 准备百度千帆 / 文心智能体接入教程或平台提交。
 6. 准备扣子 / Coze 接入教程或插件提交。

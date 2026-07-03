@@ -95,7 +95,19 @@ io.github.YonGs-AI/leor-ai-booth-design-agent
 - 未授权请求应返回 `401`，不是 `403`，否则扫描可能无法发现 OAuth。
 - 如果自动扫描被限制，可在 `/.well-known/mcp/server-card.json` 提供手工元数据，但不应在该文件中泄露内部提示词或安全实现。
 
-在官网 Agent 页上线且 MCP 授权链路通过公网验收前，不提交 Smithery。
+当前已发布：
+
+```text
+yongwah2026/leor-ai-booth-design-agent
+```
+
+页面：
+
+```text
+https://smithery.ai/servers/yongwah2026/leor-ai-booth-design-agent
+```
+
+Smithery 已扫描到 LEOR MCP server info 和 23 个 tools。resources/prompts 未公开属于预期行为，不作为失败项。
 
 ## 其他目录
 
@@ -115,4 +127,4 @@ io.github.YonGs-AI/leor-ai-booth-design-agent
 - Official MCP Registry `server.json`：已发布，首版使用 GitHub 命名空间。
 - 官网 Agent 说明页：已上线并通过静态抓取检查。
 - 域名所有权验证：作为后续升级项，不阻塞 GitHub 命名空间首版发布。
-- Smithery 正式发布：待下一步账号/平台提交流程完成。
+- Smithery 正式发布：已完成。
