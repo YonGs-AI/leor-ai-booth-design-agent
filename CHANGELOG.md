@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.07.04
+
+- Official MCP Registry 发布版本 `0.2.1`，将远程 MCP 地址更新为 `https://mcp.leor.cn/mcp`。
+- 官网、GitHub 文档和公开说明统一使用正式 MCP 子域名。
+
 ## 2026.07.03
 
 - 公开名称统一为 `LEOR AI展台设计 Agent`。

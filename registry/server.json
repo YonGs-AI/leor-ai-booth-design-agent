@@ -3,7 +3,7 @@
   "name": "io.github.YonGs-AI/leor-ai-booth-design-agent",
   "title": "LEOR AI展台设计 Agent",
   "description": "AI booth design, image editing, presentation assets, and authorized LEOR project storage.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://leor.cn/agent",
   "remotes": [
     {

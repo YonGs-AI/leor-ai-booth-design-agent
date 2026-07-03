@@ -57,7 +57,7 @@ io.github.YonGs-AI/leor-ai-booth-design-agent
 当前版本：
 
 ```text
-0.2.0
+0.2.1
 ```
 
 Registry API 验证地址：
