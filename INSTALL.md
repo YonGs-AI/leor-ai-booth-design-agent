@@ -3,7 +3,7 @@
 ## MCP 地址
 
 ```text
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 ```
 
 当前地址为公开测试入口。后续如 LEOR 切换正式 Agent 域名，请以 https://leor.cn/agent 公布的信息为准。
@@ -21,7 +21,7 @@ LEOR AI展台设计 Agent
 4. MCP 地址填写：
 
 ```text
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 ```
 
 5. 保存后，在 Agent 对话中输入：

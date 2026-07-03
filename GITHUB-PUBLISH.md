@@ -57,7 +57,7 @@ git push -u origin main
 
 - README 首屏能看到 `LEOR AI展台设计 Agent`。
 - README 包含官网 `https://leor.cn/agent`。
-- README 包含 MCP 地址 `https://leor.cn/agent-test/mcp`。
+- README 包含 MCP 地址 `https://mcp.leor.cn/mcp`。
 - README 没有主站源码、网关源码、密钥、内部提示词、真实模型路由或后台路径。
 - `DISCOVERY-CHANNELS.md`、`REGISTRY-SUBMISSION.md`、`SECURITY.md` 可正常打开。
 

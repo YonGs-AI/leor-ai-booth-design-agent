@@ -46,7 +46,7 @@ LEOR AI展台设计 Agent 支持 Codex、Claude Code、OpenClaw、WorkBuddy、QC
 ### MCP Endpoint
 
 ```text
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 ```
 
 ### 传输方式

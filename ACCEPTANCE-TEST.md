@@ -5,7 +5,7 @@
 MCP 地址：
 
 ```text
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 ```
 
 ## 测试前准备

@@ -20,7 +20,7 @@ https://leor.cn/agent
 
 ### MCP Endpoint
 
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 
 ### Transport
 

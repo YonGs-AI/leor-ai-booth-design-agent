@@ -20,7 +20,7 @@
 - 发布前置：
   - GitHub 公开仓库已可访问。
   - 官网说明页 `https://leor.cn/agent` 已可访问。
-  - `https://leor.cn/agent-test/mcp` 公网可初始化。
+  - `https://mcp.leor.cn/mcp` 公网可初始化。
 - 后续升级项：完成 `leor.cn` 域名所有权验证后，评估切换或补充 `cn.leor/ai-booth-design-agent` 命名空间。
 
 ### Smithery
@@ -47,7 +47,7 @@
 - 发布策略：先提交公开服务或教程页；如果平台要求代码托管，优先使用文档型项目，不公开私有网关实现。
 - 当前状态：已发布。
 - 页面：https://modelscope.cn/mcp/servers/yongwah/leor-ai-booth-design-agent
-- 备注：已按 Streamable HTTP 配置，MCP 地址为 `https://leor.cn/agent-test/mcp`，图标使用 LEOR 小 O 黑金图标。
+- 备注：已按 Streamable HTTP 配置，MCP 地址为 `https://mcp.leor.cn/mcp`，图标使用 LEOR 小 O 黑金图标。
 
 ### 百度千帆 / 文心智能体
 
@@ -71,9 +71,9 @@
 - 核验结论：
   - 扣子编程资源库支持创建“插件”，类型可选 `MCP`。
   - 创建 MCP 插件时需要填写“插件 URL”，授权方式可选“不需要授权”。这里的“不需要授权”仅表示扣子访问 MCP 服务本身不需要平台级密钥；用户连接 LEOR 账号仍由 LEOR OAuth 授权工具完成。
-  - 表单尝试填写 `https://leor.cn/agent-test/mcp` 时提示“请输入使用 https 协议的有效 URL”，疑似不接受带路径的 MCP URL，或当前浏览器自动化输入触发表单校验异常。
+  - 表单尝试填写 `https://mcp.leor.cn/mcp` 时提示“请输入使用 https 协议的有效 URL”，疑似不接受带路径的 MCP URL，或当前浏览器自动化输入触发表单校验异常。
   - 未提交插件，未公开发布，未上传 LEOR 私有代码。
-- 后续动作：优先确认扣子是否要求 MCP URL 为根域名格式；如果是，则准备独立根域名 MCP 入口，例如 `https://mcp.leor.cn`，再重新创建插件。若扣子只支持工作区内自定义插件，则先发布扣子安装教程，不作为公开发现目录。
+- 后续动作：优先确认扣子是否要求 MCP URL 为根域名格式；如果是，则准备独立根域名 MCP 入口，使用正式 MCP 入口 `https://mcp.leor.cn/mcp`，再重新创建插件。若扣子只支持工作区内自定义插件，则先发布扣子安装教程，不作为公开发现目录。
 
 ### 腾讯云开发者 MCP 广场 / CloudBase
 
@@ -101,7 +101,7 @@
 - 名称：LEOR AI展台设计 Agent
 - 一句话说明：LEOR AI展台设计 Agent 支持 Codex、Claude Code、OpenClaw、WorkBuddy、QClaw 等 Agent 工具，让 AI 通过对话调用 LEOR 完成展台设计、生图、改图和项目资产保存。
 - 官网：https://leor.cn/agent
-- MCP 地址：https://leor.cn/agent-test/mcp
+- MCP 地址：https://mcp.leor.cn/mcp
 - 传输方式：Streamable HTTP
 - 授权方式：用户登录 LEOR 并确认授权。
 - 分类：Design、Productivity、Image Generation、Exhibition Booth Design、AI展台设计。

@@ -8,7 +8,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://leor.cn/agent-test/mcp"
+      "url": "https://mcp.leor.cn/mcp"
     }
   ]
 }

@@ -6,7 +6,7 @@
 
 - 名称：LEOR AI展台设计 Agent
 - 官网：https://leor.cn/agent
-- MCP 地址：https://leor.cn/agent-test/mcp
+- MCP 地址：https://mcp.leor.cn/mcp
 - 传输方式：Streamable HTTP
 - GitHub：https://github.com/YonGs-AI/leor-ai-booth-design-agent
 - Official MCP Registry：`io.github.YonGs-AI/leor-ai-booth-design-agent`
@@ -32,7 +32,7 @@ LEOR AI展台设计 Agent 支持 Codex、Claude Code、OpenClaw、WorkBuddy、QC
 
 ```text
 在支持外部 MCP 工具的智能体环境中添加 LEOR MCP 地址：
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 用户通过 LEOR 授权页登录并确认授权。扣积分前，智能体必须汇总需求并等待用户确认。
 ```
 
@@ -58,7 +58,7 @@ https://leor.cn/agent-test/mcp
 
 ```text
 创建 MCP 插件或外部工具时，使用 LEOR MCP 地址：
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 工具用途为 AI 展台设计、生图、改图和项目资产保存。普通用户不需要复制 token，通过 LEOR 授权页完成账号连接。
 ```
 
@@ -67,7 +67,7 @@ https://leor.cn/agent-test/mcp
 - 已确认扣子编程资源库支持创建 MCP 类型插件。
 - 已确认 MCP 插件可填写“插件 URL”和 Header。
 - 已确认插件级授权方式可选“不需要授权”；LEOR 用户账号授权仍由 LEOR MCP 工具 `connect_leor_account` 发起。
-- 当前尝试填写 `https://leor.cn/agent-test/mcp` 时，表单提示“请输入使用 https 协议的有效 URL”。疑似平台只接受根域名格式，或当前自动化输入触发表单校验异常。
+- 当前尝试填写 `https://mcp.leor.cn/mcp` 时，表单提示“请输入使用 https 协议的有效 URL”。疑似平台只接受根域名格式，或当前自动化输入触发表单校验异常。
 - 暂未确认是否可以公开发布给其他扣子用户安装。
 - 暂未确认是否支持完整外部 OAuth 授权链路。
 - 暂未确认是否只允许在个人工作区自用。
@@ -75,7 +75,7 @@ https://leor.cn/agent-test/mcp
 后续处理：
 
 - 继续查扣子官方文档和表单要求，确认 MCP URL 是否必须为根域名。
-- 如必须为根域名，准备 `https://mcp.leor.cn` 这类独立 MCP 入口后再提交。
+- 如必须为根域名，已启用正式 MCP 入口 `https://mcp.leor.cn/mcp`，可重新提交。
 - 在未确认前，不把扣子标记为已发布渠道。
 
 ### 腾讯云开发者 MCP 广场 / CloudBase
@@ -84,7 +84,7 @@ https://leor.cn/agent-test/mcp
 
 ```text
 LEOR AI展台设计 Agent 是公网可访问的 Streamable HTTP MCP 服务，适合作为 Hosted / Remote MCP 服务收录。MCP 地址：
-https://leor.cn/agent-test/mcp
+https://mcp.leor.cn/mcp
 ```
 
 待确认事项：
