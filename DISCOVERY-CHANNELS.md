@@ -16,11 +16,12 @@
 
 - 作用：官方 MCP 生态发现入口。
 - 当前准备文件：`registry/server.json`。
+- 当前状态：已发布 `io.github.YonGs-AI/leor-ai-booth-design-agent`，版本 `0.2.0`。
 - 发布前置：
   - GitHub 公开仓库已可访问。
   - 官网说明页 `https://leor.cn/agent` 已可访问。
   - `https://leor.cn/agent-test/mcp` 公网可初始化。
-  - 完成 `leor.cn` 域名所有权验证。
+- 后续升级项：完成 `leor.cn` 域名所有权验证后，评估切换或补充 `cn.leor/ai-booth-design-agent` 命名空间。
 
 ### Smithery
 
@@ -79,8 +80,8 @@
 
 ## 4. 发布顺序
 
-1. 发布 GitHub 公开仓库。
-2. 提交 Official MCP Registry。
+1. 发布 GitHub 公开仓库。已完成。
+2. 提交 Official MCP Registry。已完成。
 3. 提交 Smithery。
 4. 提交 ModelScope MCP 广场。
 5. 准备百度千帆 / 文心智能体接入教程或平台提交。

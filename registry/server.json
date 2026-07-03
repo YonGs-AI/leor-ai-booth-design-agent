@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "cn.leor/ai-booth-design-agent",
+  "name": "io.github.YonGs-AI/leor-ai-booth-design-agent",
   "title": "LEOR AI展台设计 Agent",
   "description": "AI booth design, image editing, presentation assets, and authorized LEOR project storage.",
   "version": "0.2.0",

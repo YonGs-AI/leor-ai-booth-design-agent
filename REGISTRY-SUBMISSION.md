@@ -48,13 +48,37 @@ AI展台设计, LEOR AI展台设计 Agent, MCP, 展台设计工具, AI booth des
 - 远程地址必须能从公网访问。
 - 正式发布需要使用 `mcp-publisher`，并证明命名空间所有权。
 
-LEOR 建议用域名命名空间：
+当前已发布条目：
+
+```text
+io.github.YonGs-AI/leor-ai-booth-design-agent
+```
+
+当前版本：
+
+```text
+0.2.0
+```
+
+Registry API 验证地址：
+
+```text
+https://registry.modelcontextprotocol.io/v0.1/servers/io.github.YonGs-AI%2Fleor-ai-booth-design-agent/versions
+```
+
+LEOR 长期建议用域名命名空间：
 
 ```text
 cn.leor/ai-booth-design-agent
 ```
 
-对应的待提交文件见 [`registry/server.json`](registry/server.json)。正式提交前需要完成以下两件事：
+GitHub 登录当前可直接发布的命名空间是：
+
+```text
+io.github.YonGs-AI/leor-ai-booth-design-agent
+```
+
+首版先用 GitHub 命名空间发布，等后续完成 `leor.cn` 域名所有权验证后，再评估迁移或补充域名命名空间。对应的待提交文件见 [`registry/server.json`](registry/server.json)。切换到域名命名空间前需要完成以下两件事：
 
 1. 新的官网 Agent 说明页已经上线。
 2. 通过 DNS TXT 或 `/.well-known/mcp-registry-auth` 完成 `leor.cn` 域名所有权验证。
@@ -88,7 +112,7 @@ cn.leor/ai-booth-design-agent
 ## 当前状态
 
 - 提交字段：已准备。
-- Official MCP Registry `server.json`：已准备。
+- Official MCP Registry `server.json`：已发布，首版使用 GitHub 命名空间。
 - 官网 Agent 说明页：已上线并通过静态抓取检查。
-- 域名所有权验证：待官网页面上线后与正式提交一起执行。
-- Registry/Smithery 正式发布：待 GitHub 公开仓库完成后执行，避免目录提交缺少技术可信源。
+- 域名所有权验证：作为后续升级项，不阻塞 GitHub 命名空间首版发布。
+- Smithery 正式发布：待下一步账号/平台提交流程完成。
