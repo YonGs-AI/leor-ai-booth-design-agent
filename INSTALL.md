@@ -6,7 +6,7 @@
 https://mcp.leor.cn/mcp
 ```
 
-当前地址为公开测试入口。后续如 LEOR 切换正式 Agent 域名，请以 https://leor.cn/agent 公布的信息为准。
+当前地址为正式 MCP 入口。后续如 LEOR 调整 Agent 域名，请以 https://leor.cn/agent 公布的信息为准。
 
 ## 通用连接步骤
 

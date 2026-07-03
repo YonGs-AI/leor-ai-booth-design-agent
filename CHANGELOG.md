@@ -4,6 +4,9 @@
 
 - Official MCP Registry 发布版本 `0.2.1`，将远程 MCP 地址更新为 `https://mcp.leor.cn/mcp`。
 - 官网、GitHub 文档和公开说明统一使用正式 MCP 子域名。
+- Smithery 已接受 `yongwah2026/leor-ai-booth-design-agent` 发布，页面已生成，搜索索引等待平台刷新。
+- 扣子插件 `LEORAIAgent` 已基于正式 MCP 地址创建并发布，插件 ID：`7658391373665681442`。
+- ModelScope 魔搭页面已公开；平台缓存的服务介绍如仍显示旧地址，需要在平台刷新或编辑后再复查。
 
 ## 2026.07.03
 

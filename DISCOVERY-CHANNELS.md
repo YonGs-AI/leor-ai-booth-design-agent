@@ -16,7 +16,7 @@
 
 - 作用：官方 MCP 生态发现入口。
 - 当前准备文件：`registry/server.json`。
-- 当前状态：已发布 `io.github.YonGs-AI/leor-ai-booth-design-agent`，版本 `0.2.0`。
+- 当前状态：已发布 `io.github.YonGs-AI/leor-ai-booth-design-agent`，最新版本 `0.2.1`。
 - 发布前置：
   - GitHub 公开仓库已可访问。
   - 官网说明页 `https://leor.cn/agent` 已可访问。
@@ -27,7 +27,7 @@
 
 - 作用：MCP 服务发现、连接和分发入口。
 - 提交方式：提交公开 HTTPS MCP URL。
-- 当前状态：已发布 `yongwah2026/leor-ai-booth-design-agent`。
+- 当前状态：已发布 `yongwah2026/leor-ai-booth-design-agent`；发布请求已被 Smithery 接受，页面已生成，搜索索引等待平台刷新。
 - 页面：https://smithery.ai/servers/yongwah2026/leor-ai-booth-design-agent
 - 注意：如果平台要求公开私有源码或内部风控实现，停止提交。
 
@@ -48,6 +48,7 @@
 - 当前状态：已发布。
 - 页面：https://modelscope.cn/mcp/servers/yongwah/leor-ai-booth-design-agent
 - 备注：已按 Streamable HTTP 配置，MCP 地址为 `https://mcp.leor.cn/mcp`，图标使用 LEOR 小 O 黑金图标。
+- 待复查：ModelScope 页面服务介绍区可能缓存创建时的旧地址 `https://leor.cn/agent-test/mcp`。正式对外口径只使用 `https://mcp.leor.cn/mcp`，如平台缓存未自动刷新，需要进入编辑页修正或重新同步 GitHub 说明。
 
 ### 百度千帆 / 文心智能体
 
@@ -67,13 +68,15 @@
 - 优先级：高。
 - 原因：扣子支持基于 MCP 服务创建插件或自定义工具，适合普通用户通过平台添加外部能力。
 - 发布策略：准备扣子版安装教程，强调“先连接 LEOR 账号，再确认需求后生成”。
-- 当前状态：已登录扣子编程核验，但未完成插件创建。
+- 当前状态：已创建并发布扣子插件 `LEORAIAgent`，插件 ID：`7658391373665681442`。
 - 核验结论：
   - 扣子编程资源库支持创建“插件”，类型可选 `MCP`。
   - 创建 MCP 插件时需要填写“插件 URL”，授权方式可选“不需要授权”。这里的“不需要授权”仅表示扣子访问 MCP 服务本身不需要平台级密钥；用户连接 LEOR 账号仍由 LEOR OAuth 授权工具完成。
-  - 表单尝试填写 `https://mcp.leor.cn/mcp` 时提示“请输入使用 https 协议的有效 URL”，疑似不接受带路径的 MCP URL，或当前浏览器自动化输入触发表单校验异常。
-  - 未提交插件，未公开发布，未上传 LEOR 私有代码。
-- 后续动作：优先确认扣子是否要求 MCP URL 为根域名格式；如果是，则准备独立根域名 MCP 入口，使用正式 MCP 入口 `https://mcp.leor.cn/mcp`，再重新创建插件。若扣子只支持工作区内自定义插件，则先发布扣子安装教程，不作为公开发现目录。
+  - 使用正式 MCP 地址 `https://mcp.leor.cn/mcp` 创建成功。
+  - 工具列表已加载，至少 23 个工具可被扣子识别，调试状态显示通过。
+  - 发布时按合规保守口径声明插件会收集/传输用户信息，并勾选“IP 地址”。未勾选银行卡、地址、生物识别等不相关类别。
+  - 插件未上传 LEOR 私有代码，未公开 Agent Gateway 源码。
+- 后续动作：复查扣子插件商店或工作区外部可见性；如果只能工作区内使用，则补充“扣子安装教程”，不把它当作完全公开目录。
 
 ### 腾讯云开发者 MCP 广场 / CloudBase
 
@@ -114,7 +117,7 @@
 4. 提交 ModelScope MCP 广场。已完成。
 5. 准备 ModelScope 魔搭提交。已完成。
 6. 准备百度千帆 / 文心智能体接入教程或平台提交。已核验，受实名认证 / AI 原生网关开通限制，暂未完成。
-7. 准备扣子 / Coze 接入教程或插件提交。已核验，受 MCP URL 格式校验限制，暂未完成。
+7. 准备扣子 / Coze 接入教程或插件提交。已创建并发布扣子插件，仍需复查工作区外部可见性。
 8. 准备腾讯云 MCP 广场 / CloudBase 收录。
 9. 补充提交 MCP.so、MCP Hub 中国、Awesome MCP 中文列表。MCP.so 已提交。
 10. 发布中文内容平台教程。
