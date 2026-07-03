@@ -82,8 +82,10 @@
 
 - 优先级：中高。
 - 原因：国内可见度高，腾讯云开发者 MCP 广场支持 Hosted / Local MCP 服务展示，CloudBase 也有 MCP Server 托管和收录说明。
-- 发布策略：优先提交公网 Streamable HTTP 服务；如果要求使用腾讯云托管代码，则先不提交私有网关源码，只准备教程或申请收录。
-- 当前状态：待登录腾讯云账号确认收录入口。
+- 发布策略：优先提交公网 Streamable HTTP 服务，并申请腾讯云 MCP 广场收录，让 WorkBuddy / CodeBuddy 用户能在腾讯 MCP 资源入口发现 LEOR。如果要求使用腾讯云托管代码，则先不提交私有网关源码，只准备教程或申请收录。
+- 当前状态：已找到腾讯云 MCP 广场入驻申请表，已准备申请材料。
+- 入驻申请表：https://wj.qq.com/s2/23327353/7684/
+- 申请材料：`TENCENT-MCP-SUBMISSION.md`
 
 ### MCP Hub 中国 / Awesome MCP 中文列表
 
@@ -120,7 +122,7 @@
 5. 准备 ModelScope 魔搭提交。已完成。
 6. 准备百度千帆 / 文心智能体接入教程或平台提交。已核验，受实名认证 / AI 原生网关开通限制，暂未完成。
 7. 准备扣子 / Coze 接入教程或插件提交。已创建并发布扣子插件，仍需复查工作区外部可见性。
-8. 准备腾讯云 MCP 广场 / CloudBase 收录。
+8. 准备腾讯云 MCP 广场 / CloudBase 收录。已准备腾讯云 MCP 广场入驻申请材料，待填写腾讯问卷。
 9. 补充提交 MCP.so、MCP Hub 中国、Awesome MCP 中文列表。MCP.so 已提交，MCP Hub 中国已提交推荐 issue。
 10. 发布中文内容平台教程。
 

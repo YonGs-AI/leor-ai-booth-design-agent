@@ -90,6 +90,13 @@ https://mcp.leor.cn/mcp
 
 ### 腾讯云开发者 MCP 广场 / CloudBase
 
+当前状态：
+
+- 已找到腾讯云 MCP 广场入驻申请表。
+- 入驻申请表：https://wj.qq.com/s2/23327353/7684/
+- 已准备申请材料：`TENCENT-MCP-SUBMISSION.md`
+- 目标不是让用户手动配置 WorkBuddy，而是让 WorkBuddy / CodeBuddy 用户能在腾讯 MCP 资源入口发现 LEOR。
+
 建议描述：
 
 ```text

@@ -73,6 +73,7 @@ https://mcp.leor.cn/mcp
 - [发现渠道发布清单](DISCOVERY-CHANNELS.md)
 - [ModelScope 魔搭提交资料](MODELSCOPE-SUBMISSION.md)
 - [国内平台提交资料](DOMESTIC-PLATFORM-SUBMISSION.md)
+- [腾讯云 MCP 广场入驻申请材料](TENCENT-MCP-SUBMISSION.md)
 - [GitHub 发布操作单](GITHUB-PUBLISH.md)
 - [中文推广素材](CONTENT-KIT.md)
 - [宣传素材交接说明](marketing/HANDOFF.md)
