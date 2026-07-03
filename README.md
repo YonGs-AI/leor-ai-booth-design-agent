@@ -69,6 +69,8 @@ https://leor.cn/agent-test/mcp
 - [测试指南](ACCEPTANCE-TEST.md)
 - [目录提交资料](REGISTRY-SUBMISSION.md)
 - [发现渠道发布清单](DISCOVERY-CHANNELS.md)
+- [ModelScope 魔搭提交资料](MODELSCOPE-SUBMISSION.md)
+- [国内平台提交资料](DOMESTIC-PLATFORM-SUBMISSION.md)
 - [GitHub 发布操作单](GITHUB-PUBLISH.md)
 - [中文推广素材](CONTENT-KIT.md)
 - [宣传素材交接说明](marketing/HANDOFF.md)

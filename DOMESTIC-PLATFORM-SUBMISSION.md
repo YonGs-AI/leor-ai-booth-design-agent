@@ -1,0 +1,96 @@
+# 国内平台提交与接入资料
+
+本文件用于百度千帆 / 文心智能体、扣子 / Coze、腾讯云开发者 MCP 广场 / CloudBase 等国内平台。若平台支持“外部 MCP / Streamable HTTP MCP”直接接入，优先使用 LEOR 公网 MCP 地址；若平台要求上传服务源码或托管私有网关，暂停提交。
+
+## 通用服务信息
+
+- 名称：LEOR AI展台设计 Agent
+- 官网：https://leor.cn/agent
+- MCP 地址：https://leor.cn/agent-test/mcp
+- 传输方式：Streamable HTTP
+- GitHub：https://github.com/YonGs-AI/leor-ai-booth-design-agent
+- Official MCP Registry：`io.github.YonGs-AI/leor-ai-booth-design-agent`
+- Smithery：https://smithery.ai/servers/yongwah2026/leor-ai-booth-design-agent
+
+## 一句话介绍
+
+LEOR AI展台设计 Agent 支持 Codex、Claude Code、OpenClaw、WorkBuddy、QClaw 等 Agent 工具，让 AI 通过对话调用 LEOR 完成展台设计、生图、改图和项目资产保存。
+
+## 适用场景
+
+- 展台设计搭建团队前期方案沟通。
+- 业务员 / 项目经理快速整理客户需求。
+- 设计师生成 AI 展台设计图和展示效果图。
+- 用 Logo、产品图、参考图辅助生成展台方案。
+- 对已有展台图继续改图、生成材质板、展位分镜、海报和旋转视角。
+
+## 平台接入说明
+
+### 百度千帆 / 文心智能体
+
+建议描述：
+
+```text
+在支持外部 MCP 工具的智能体环境中添加 LEOR MCP 地址：
+https://leor.cn/agent-test/mcp
+用户通过 LEOR 授权页登录并确认授权。扣积分前，智能体必须汇总需求并等待用户确认。
+```
+
+待确认事项：
+
+- 是否有公开 MCP 插件/工具市场提交入口。
+- 是否允许外部 Streamable HTTP MCP URL。
+- 是否要求平台侧 OAuth 配置。
+- 是否会强制平台托管源码。
+
+### 扣子 / Coze
+
+建议描述：
+
+```text
+创建 MCP 插件或外部工具时，使用 LEOR MCP 地址：
+https://leor.cn/agent-test/mcp
+工具用途为 AI 展台设计、生图、改图和项目资产保存。普通用户不需要复制 token，通过 LEOR 授权页完成账号连接。
+```
+
+待确认事项：
+
+- 是否可以公开发布给其他扣子用户安装。
+- 是否支持外部 OAuth 授权链路。
+- 是否支持 Streamable HTTP MCP。
+- 是否只允许在个人工作区自用。
+
+### 腾讯云开发者 MCP 广场 / CloudBase
+
+建议描述：
+
+```text
+LEOR AI展台设计 Agent 是公网可访问的 Streamable HTTP MCP 服务，适合作为 Hosted / Remote MCP 服务收录。MCP 地址：
+https://leor.cn/agent-test/mcp
+```
+
+待确认事项：
+
+- 腾讯云开发者 MCP 广场是否支持第三方公网 MCP URL 自助提交。
+- CloudBase Marketplace 是否必须使用腾讯云托管部署。
+- 若要求源码托管，是否允许只提交文档型项目和远程 URL。
+
+## 安全边界
+
+对外只写：
+
+- 需要 LEOR 账号授权。
+- 扣积分功能消耗当前授权账号积分。
+- 结果保存到当前授权账号项目。
+- 默认每次只生成 1 张。
+- 生成前需要确认需求。
+- 不暴露核心提示词、模型密钥、内部路由、后台路径或提示词资产。
+
+不要写：
+
+- 主站源码。
+- Agent Gateway 源码。
+- 内部风控实现。
+- 真实模型路由。
+- 数据库结构。
+- 私钥、token、环境变量。

@@ -121,6 +121,11 @@ Smithery 已扫描到 LEOR MCP server info 和 23 个 tools。resources/prompts 
   - MCP.so、MCP Hub 中国、Awesome MCP 中文列表等社区目录。
 - 国内平台若不能直接提交公开 MCP 服务，先发布“连接教程 + MCP 地址 + 官网说明页”，让 Agent 和用户能按文档添加外部工具。
 
+### MCP.so
+
+- 状态：已提交，等待收录。
+- 提交链接：https://github.com/chatmcp/mcpso/issues/2999
+
 ## 当前状态
 
 - 提交字段：已准备。
