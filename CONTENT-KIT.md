@@ -19,6 +19,7 @@
 - [`marketing/SHORT-VIDEO.md`](marketing/SHORT-VIDEO.md)：抖音/短视频口播和镜头脚本。
 - [`marketing/IMAGE-BRIEF.md`](marketing/IMAGE-BRIEF.md)：所有平台的配图和截图清单。
 - [`marketing/HANDOFF.md`](marketing/HANDOFF.md)：发布窗口执行顺序和上线门禁。
+- [`ACCEPTANCE-TEST.md`](ACCEPTANCE-TEST.md)：真实 Agent 测试话术和验收记录模板。
 
 ## 当前状态
 

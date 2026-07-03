@@ -59,14 +59,7 @@ cn.leor/ai-booth-design-agent
 1. 新的官网 Agent 说明页已经上线。
 2. 通过 DNS TXT 或 `/.well-known/mcp-registry-auth` 完成 `leor.cn` 域名所有权验证。
 
-提交命令（满足前置条件后执行）：
-
-```bash
-mcp-publisher login dns --domain leor.cn --private-key "<private-key>"
-mcp-publisher publish
-```
-
-私钥不得写入 GitHub、文档、聊天或命令历史。
+提交时按官方 Registry 当前文档执行域名所有权验证和发布流程。私钥、token 或一次性验证码不得写入 GitHub、文档、聊天或命令历史。
 
 ## Smithery
 
@@ -85,11 +78,17 @@ mcp-publisher publish
 - mcp.so 等第三方目录只作补充发现渠道。
 - 提交字段继续使用本文档的通用字段。
 - 如果平台要求公开私有网关源码、内部风控实现或密钥，停止提交。
+- 国内可发现渠道优先看：
+  - 魔搭 ModelScope MCP 广场。
+  - 百度千帆 / 文心智能体 MCP 广场或外部 MCP 接入入口。
+  - 扣子 / Coze 的 MCP 插件或自定义 MCP 入口。
+  - MCP.so、MCP Hub 中国、Awesome MCP 中文列表等社区目录。
+- 国内平台若不能直接提交公开 MCP 服务，先发布“连接教程 + MCP 地址 + 官网说明页”，让 Agent 和用户能按文档添加外部工具。
 
 ## 当前状态
 
 - 提交字段：已准备。
 - Official MCP Registry `server.json`：已准备。
-- 官网 Agent 说明页：待其他窗口重做并上线。
+- 官网 Agent 说明页：已上线并通过静态抓取检查。
 - 域名所有权验证：待官网页面上线后与正式提交一起执行。
-- Registry/Smithery 正式发布：未执行，避免目录提前收录一个官网说明页尚未完成的产品入口。
+- Registry/Smithery 正式发布：待 GitHub 公开仓库完成后执行，避免目录提交缺少技术可信源。
