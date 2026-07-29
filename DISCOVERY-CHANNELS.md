@@ -16,7 +16,7 @@
 
 - 作用：官方 MCP 生态发现入口。
 - 当前准备文件：`registry/server.json`。
-- 当前状态：已发布 `io.github.YonGs-AI/leor-ai-booth-design-agent`，最新版本 `0.2.1`。
+- 当前状态：已发布 `io.github.YonGs-AI/leor-ai-booth-design-agent`，线上最新版本 `0.2.1`；本地已准备 `0.3.0` 元数据，尚未提交发布。
 - 发布前置：
   - GitHub 公开仓库已可访问。
   - 官网说明页 `https://leor.cn/agent` 已可访问。
