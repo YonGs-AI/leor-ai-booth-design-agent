@@ -13,7 +13,6 @@
 
 ## 2026.07.30
 
-- 准备 Official MCP Registry `0.3.0` 元数据。
 - 新增专业展位平面图重绘、专业平面设计、完整模型品质渲染三项公开能力说明。
 - 新增用户与 Agent 共用的专项能力指南，明确输入资料、可见选项、能力边界和标准讲解话术。
 - 用户询问专项功能怎么用时，Agent 应先读取免费官方说明，再收集资料；付费生成前继续执行项目、模型、分辨率、比例和积分强确认。
@@ -21,25 +20,8 @@
 
 ## 2026.07.04
 
-- Official MCP Registry 发布版本 `0.2.1`，将远程 MCP 地址更新为 `https://mcp.leor.cn/mcp`。
-- 官网、GitHub 文档和公开说明统一使用正式 MCP 子域名。
-- Smithery 已接受 `yongwah2026/leor-ai-booth-design-agent` 发布，页面已生成，搜索索引等待平台刷新。
-- 扣子插件 `LEORAIAgent` 已基于正式 MCP 地址创建并发布，插件 ID：`7658391373665681442`。
-- ModelScope 魔搭页面已公开；平台缓存的服务介绍如仍显示旧地址，需要在平台刷新或编辑后再复查。
+- 正式 MCP 连接地址更新为 https://mcp.leor.cn/mcp。
 
 ## 2026.07.03
 
-- 公开名称统一为 `LEOR AI展台设计 Agent`。
-- 新增官网说明页规划：`https://leor.cn/agent`。
-- 公开 MCP 测试地址：`https://mcp.leor.cn/mcp`。
-- 明确支持 Codex、Claude Code、OpenClaw、WorkBuddy、QClaw 等 Agent 工具。
-- 明确默认每次只生成 1 张图。
-- 明确展台设计图生成前必须收集完整资料并等待用户确认。
-- 明确 Logo 强烈建议上传，参考图建议上传。
-- 对外统一使用“展台设计图 / 展示效果图 / 旋转视角”等说法。
-- 补充功能输入边界：新建展台可从完整文字需求开始，改图/分镜/材质看板/海报/旋转视角必须带图。
-- 补充三个公开模型、1K/2K/4K 和对应积分说明。
-- 新增 `ACCEPTANCE-TEST.md`，用于真实 Agent 测试和验收记录。
-- 新增公众号、小红书、知乎、抖音/短视频完整交接稿和配图清单。
-- 根据 Official MCP Registry 和 Smithery 当前文档补全目录提交要求。
-- 新增已通过官方 Schema 验证的 `registry/server.json`。
+- 提供展台设计、改图和项目资产保存的 Agent 接入说明。
